@@ -1,0 +1,33 @@
+
+
+@font-face {
+    font-family: 'Florsn01';
+    src:
+    url("../font/Florsn01.woff") format("woff"),
+    url('../font/Florsn01.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Florsn02';
+    src:
+            url("../font/Florsn02.woff") format("woff"),
+            url('../font/Florsn02.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,1325 @@
+/* tsuyu CSS (home.css) */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/* ============================================
+ main_visual
+============================================ */
+#main_visual {
+  position: relative;
+  padding: 0px 0px;
+  overflow: hidden;
+}
+
+#main_visual .illust {
+  position: absolute;
+  top: 64%;
+  left: 0;
+  font-size: 9px;
+  /* font-size: 1rem; */
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 0;
+  color: #fff;
+  opacity: 0.5;
+  z-index: 100;
+}
+
+#main_visual img {
+  width: 112%;
+  max-width: none;
+  position: relative;
+  left: -4%;
+}
+
+/* ============================================
+ contents
+============================================ */
+#main {
+  width: 100%;
+  margin-top: 30px;
+}
+
+section {
+  position: relative;
+  margin: 0% 0;
+  background: rgba(49, 54, 124, 0.8);
+  padding: 10% 5%;
+}
+
+section h2 {
+  position: relative;
+  text-align: center;
+  line-height: 1;
+  letter-spacing: 0.5px;
+  color: #fff;
+  padding-bottom: 5px;
+  font-size: 24px;
+  font-size: 2rem;
+}
+
+section h2 img {
+  position: relative;
+  width: 120%;
+  max-width: none;
+  margin-left: -10%;
+}
+
+section .inner {
+  position: relative;
+  padding: 0;
+}
+
+/*-----------------------------------------------------------------
+  schedule
+------------------------------------------------------------------*/
+#schedule {
+  background: #192f72;
+  background: linear-gradient(180deg, rgba(25, 47, 114, 0) 0%, rgba(49, 54, 124, 0.801580007) 40%);
+  padding-top: 60%;
+  margin-top: -90%;
+}
+
+#schedule h3 {
+  font-size: 18px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+#schedule p {
+  font-size: 14px;
+  font-size: 1.1666666667rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+#schedule p strong {
+  font-size: 16px;
+  font-size: 1.3333333333rem;
+  font-weight: 500;
+}
+
+#schedule p img {
+  width: 100%;
+}
+
+#schedule a.hokkaido {
+  position: absolute;
+  top: 42.2%;
+  left: 1%;
+  width: 50%;
+  height: 20px;
+  background: #fff;
+  display: block;
+  opacity: 0;
+}
+
+#schedule a.aichi {
+  position: absolute;
+  top: 57.7%;
+  left: 1%;
+  width: 50%;
+  height: 20px;
+  background: #fff;
+  display: block;
+  opacity: 0;
+}
+
+#schedule a.miyagi {
+  position: absolute;
+  top: 73.2%;
+  left: 1%;
+  width: 50%;
+  height: 20px;
+  background: #fff;
+  display: block;
+  opacity: 0;
+}
+
+/*-----------------------------------------------------------------
+  notice
+------------------------------------------------------------------*/
+#notice {
+  /*margin-top: 10px;*/
+  background: rgba(255, 255, 255, 0.75);
+  position: relative;
+  padding: 10% 8%;
+}
+
+#notice p {
+  position: relative;
+  font-size: 12px;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 5px auto;
+}
+
+#notice p a {
+  display: inline-block;
+  position: relative;
+  top: 45%;
+  left: 0%;
+  width: 100%;
+}
+
+#notice .url01 {
+  position: absolute;
+  width: 54%;
+  top: 50.2%;
+  left: 3%;
+}
+
+#notice .url02 {
+  position: absolute;
+  width: 26%;
+  top: 81%;
+  left: 35%;
+}
+
+.hasen {
+  margin: 20px auto 0px;
+  padding: 50px 20px 0px;
+}
+
+/*-----------------------------------------------------------------
+  ticket
+------------------------------------------------------------------*/
+#ticket .wrapper {
+  margin-top: -15px;
+}
+
+#ticket .box_ticket {
+  width: 100%;
+  position: relative;
+  margin-top: 6%;
+  padding: 0 0px;
+}
+
+#ticket .box_ticket > img {
+  width: 100%;
+}
+
+#ticket .url_ticket {
+  position: absolute;
+  width: 90%;
+  top: 67%;
+  left: 5%;
+}
+
+#ticket .url_ticket2 {
+  position: absolute;
+  width: 90%;
+  top: 67%;
+  left: 5%;
+}
+
+#ticket .url_qa {
+  position: absolute;
+  width: 89%;
+  top: 89%;
+  left: 5%;
+}
+
+#ticket .ticket_wrap {
+  text-align: center;
+}
+
+#ticket .ticket_wrap img {
+  width: 100%;
+}
+
+#ticket .btn_haishin {
+  margin: 40px auto 10px;
+  text-align: center;
+}
+
+#ticket .maisuseigen {
+  margin: 10px auto 50px;
+  text-align: center;
+}
+
+#ticket .maisuseigen img {
+  width: 60%;
+}
+
+#ticket .ticket_box {
+  margin-top: 30px;
+  position: relative;
+}
+
+#ticket .ticket_box a {
+  display: none;
+  display: inline-block;
+  position: absolute;
+  top: 62%;
+  left: 29.9%;
+  width: 55%;
+}
+
+#ticket .box_ticket {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+#ticket .box_ticket:last-child {
+  margin-bottom: 0;
+}
+
+#ticket .box_ticket a {
+  position: absolute;
+  top: 54%;
+  display: block;
+  width: 90%;
+  left: 5%;
+}
+
+#ticket .ticket_contact {
+  margin-top: 10px;
+  font-size: 12px;
+  font-size: 1rem;
+  color: #fff;
+  text-align: center;
+}
+
+#ticket p.info {
+  font-size: 11px;
+  font-size: 0.9166666667rem;
+  margin-top: 15px;
+  text-align: center;
+}
+
+#caution_popup {
+  position: relative;
+  height: 100vh;
+  padding: 30px;
+}
+
+#caution_popup .popup_inner {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 720px;
+  background: #000;
+  padding: 0px 0px;
+  overflow-y: scroll;
+}
+
+#caution_popup .popup_content {
+  position: relative;
+}
+
+#caution_popup .popup_content .url_01 {
+  position: absolute;
+  left: 7.5%;
+  top: 12.6%;
+  width: 59%;
+}
+
+#caution_popup .popup_content .btn_iphone {
+  position: absolute;
+  left: 6%;
+  top: 13.3%;
+  width: 44%;
+}
+
+#caution_popup .popup_content .btn_and {
+  position: absolute;
+  left: 51.5%;
+  top: 13.3%;
+  width: 44%;
+}
+
+#caution_popup .popup_content .url_qa {
+  position: absolute;
+  left: 43%;
+  top: 17.6%;
+  width: 27%;
+}
+
+.insta_window {
+  max-width: 800px;
+  width: 760px;
+  flex-wrap: wrap;
+  padding: 40px;
+  margin: 40px 20px !important;
+  background: #fff;
+  color: #2e2e2e;
+}
+
+.insta_window .modal_insta_wrap h3 {
+  font-size: 30px;
+  font-size: 2.5rem;
+  font-family: "Roboto Condensed";
+}
+
+.insta_window .modal_insta_wrap p {
+  font-size: 16px;
+  font-size: 1.3333333333rem;
+  text-align: justify;
+  margin: 25px auto;
+}
+
+.insta_window p {
+  line-height: 1.7;
+  margin: 30px auto;
+  font-size: 16px;
+  font-size: 1.3333333333rem;
+}
+
+.insta_window p span {
+  color: #e0246e;
+  font-weight: 500;
+}
+
+.insta_window p a {
+  color: #e0246e;
+  text-decoration: underline;
+}
+
+.insta_window .close {
+  padding: 10px;
+  margin: 40px auto 0;
+  width: 200px;
+  height: 35px;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  text-align: center;
+  border-radius: 20px;
+  color: #000;
+  border: solid 1px #000;
+  font-size: 14px;
+  font-size: 1.1666666667rem;
+}
+
+#interview_popup .modal_insta_wrap p {
+  font-size: 15px;
+  font-size: 1.25rem;
+}
+
+.fancybox-close-small {
+  color: #000;
+  font-weight: bold;
+}
+
+.rains {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.rains span {
+  position: absolute;
+  width: 1px;
+  height: 60px;
+  background: #74d8e4;
+  opacity: 0.2;
+}
+
+.rains span:nth-child(1) {
+  left: 5%;
+  top: -190px;
+  animation: rain-anim 8s infinite;
+}
+
+.rains span:nth-child(2) {
+  left: 10%;
+  top: -180px;
+  animation: rain-anim 8s infinite;
+}
+
+.rains span:nth-child(3) {
+  left: 15%;
+  top: -170px;
+  animation: rain-anim 5s infinite;
+}
+
+.rains span:nth-child(4) {
+  left: 20%;
+  top: -160px;
+  animation: rain-anim 10s infinite;
+}
+
+.rains span:nth-child(5) {
+  left: 25%;
+  top: -150px;
+  animation: rain-anim 8s infinite;
+}
+
+.rains span:nth-child(6) {
+  left: 30%;
+  top: -150px;
+  animation: rain-anim 9s infinite;
+}
+
+.rains span:nth-child(7) {
+  left: 35%;
+  top: -160px;
+  animation: rain-anim 11s infinite;
+}
+
+.rains span:nth-child(8) {
+  left: 40%;
+  top: -170px;
+  animation: rain-anim 6s infinite;
+}
+
+.rains span:nth-child(9) {
+  left: 45%;
+  top: -180px;
+  animation: rain-anim 7s infinite;
+}
+
+.rains span:nth-child(10) {
+  left: 50%;
+  top: -190px;
+  animation: rain-anim 9s infinite;
+}
+
+.rains span:nth-child(11) {
+  left: 55%;
+  top: -190px;
+  animation: rain-anim 8s infinite;
+}
+
+.rains span:nth-child(12) {
+  left: 60%;
+  top: -180px;
+  animation: rain-anim 4s infinite;
+}
+
+.rains span:nth-child(13) {
+  left: 65%;
+  top: -170px;
+  animation: rain-anim 12s infinite;
+}
+
+.rains span:nth-child(14) {
+  left: 70%;
+  top: -160px;
+  animation: rain-anim 10s infinite;
+}
+
+.rains span:nth-child(15) {
+  left: 75%;
+  top: -150px;
+  animation: rain-anim 8s infinite;
+}
+
+.rains span:nth-child(16) {
+  left: 80%;
+  top: -150px;
+  animation: rain-anim 12s infinite;
+}
+
+.rains span:nth-child(17) {
+  left: 85%;
+  top: -160px;
+  animation: rain-anim 6s infinite;
+}
+
+.rains span:nth-child(18) {
+  left: 90%;
+  top: -170px;
+  animation: rain-anim 8s infinite;
+}
+
+.rains span:nth-child(19) {
+  left: 95%;
+  top: -180px;
+  animation: rain-anim 9s infinite;
+}
+
+.rains span:nth-child(20) {
+  left: 100%;
+  top: -190px;
+  animation: rain-anim 11s infinite;
+}
+
+@keyframes rain-anim {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  4% {
+    transform: translate(0px, 1600px);
+  }
+  5% {
+    transform: translate(200px, 0px);
+  }
+  9% {
+    transform: translate(200px, 1600px);
+  }
+  10% {
+    transform: translate(-100px, 0px);
+  }
+  14% {
+    transform: translate(-100px, 1600px);
+  }
+  15% {
+    transform: translate(-200px, 0px);
+  }
+  19% {
+    transform: translate(-200px, 1600px);
+  }
+  20% {
+    transform: translate(100px, 0px);
+  }
+  24% {
+    transform: translate(100px, 1600px);
+  }
+  25% {
+    transform: translate(-150px, 0px);
+  }
+  29% {
+    transform: translate(-150px, 1600px);
+  }
+  30% {
+    transform: translate(-80px, 0px);
+  }
+  34% {
+    transform: translate(-80px, 1600px);
+  }
+  35% {
+    transform: translate(150px, 0px);
+  }
+  39% {
+    transform: translate(150px, 1600px);
+  }
+  40% {
+    transform: translate(-60px, 0px);
+  }
+  44% {
+    transform: translate(-60px, 1600px);
+  }
+  45% {
+    transform: translate(90px, 0px);
+  }
+  49% {
+    transform: translate(90px, 1600px);
+  }
+  50% {
+    transform: translate(60px, 0px);
+  }
+  54% {
+    transform: translate(60px, 1600px);
+  }
+  55% {
+    transform: translate(-60px, 0px);
+  }
+  59% {
+    transform: translate(-60px, 1600px);
+  }
+  60% {
+    transform: translate(-40px, 0px);
+  }
+  64% {
+    transform: translate(-40px, 1600px);
+  }
+  65% {
+    transform: translate(40px, 0px);
+  }
+  69% {
+    transform: translate(40px, 1600px);
+  }
+  70% {
+    transform: translate(-20px, 0px);
+  }
+  74% {
+    transform: translate(-20px, 1600px);
+  }
+  75% {
+    transform: translate(-110px, 0px);
+  }
+  79% {
+    transform: translate(-110px, 1600px);
+  }
+  80% {
+    transform: translate(20px, 0px);
+  }
+  84% {
+    transform: translate(20px, 1600px);
+  }
+  85% {
+    transform: translate(-20px, 0px);
+  }
+  89% {
+    transform: translate(-20px, 1600px);
+  }
+  90% {
+    transform: translate(50px, 0px);
+  }
+  99% {
+    transform: translate(50px, 1600px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+/* ============================================
+ Media Queries
+============================================ */
+@media screen and (min-width: 800px) {
+  /* ============================================
+   main_visual
+  ============================================ */
+  #main_visual {
+    padding: 0px 0px;
+    overflow: visible;
+  }
+
+  #main_visual .illust {
+    position: absolute;
+    top: 69%;
+    right: 0;
+    font-size: 12px;
+    font-size: 1rem;
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 0;
+    color: #fff;
+    opacity: 0.7;
+    z-index: 100;
+  }
+
+  #main_visual img {
+    width: 112%;
+    max-width: none;
+    position: relative;
+    left: -6%;
+  }
+
+  /* ============================================
+   contents
+  ============================================ */
+  #main {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  section {
+    position: relative;
+    margin: 0;
+    padding: 10% 5%;
+    background: rgba(49, 54, 124, 0.9);
+  }
+
+  section h2 {
+    position: relative;
+    text-align: center;
+    line-height: 1;
+    letter-spacing: 0.5px;
+    color: #fff;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    font-size: 24px;
+    font-size: 2rem;
+  }
+
+  section h2 img {
+    position: relative;
+    width: 120%;
+    max-width: none;
+    margin-left: -10%;
+  }
+
+  section .inner {
+    position: relative;
+    padding: 5px 0;
+    margin-top: 10px;
+  }
+
+  /*-----------------------------------------------------------------
+    schedule
+  ------------------------------------------------------------------*/
+  #schedule {
+    background: linear-gradient(180deg, rgba(25, 47, 114, 0) 0%, rgba(49, 54, 124, 0.9) 48%);
+    padding-top: 60%;
+    margin-top: -90%;
+  }
+
+  #schedule h3 {
+    font-size: 18px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    line-height: 1.5;
+  }
+
+  #schedule p {
+    font-size: 14px;
+    font-size: 1.1666666667rem;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  #schedule p strong {
+    font-size: 16px;
+    font-size: 1.3333333333rem;
+    font-weight: 500;
+  }
+
+  #schedule p img {
+    width: 100%;
+  }
+
+  #schedule a.hokkaido {
+    position: absolute;
+    top: 42.2%;
+    left: 1%;
+    width: 50%;
+    height: 20px;
+    background: #fff;
+    display: block;
+    opacity: 0;
+  }
+
+  #schedule a.aichi {
+    position: absolute;
+    top: 57.7%;
+    left: 1%;
+    width: 50%;
+    height: 20px;
+    background: #fff;
+    display: block;
+    opacity: 0;
+  }
+
+  #schedule a.miyagi {
+    position: absolute;
+    top: 73.2%;
+    left: 1%;
+    width: 50%;
+    height: 20px;
+    background: #fff;
+    display: block;
+    opacity: 0;
+  }
+
+  /*-----------------------------------------------------------------
+    notice
+  ------------------------------------------------------------------*/
+  #notice p {
+    position: relative;
+    font-size: 12px;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 5px auto;
+  }
+
+  #notice p a {
+    display: inline-block;
+    position: relative;
+    top: 45%;
+    left: 0%;
+    width: 100%;
+  }
+
+  #notice .url01 {
+    position: absolute;
+    width: 54%;
+    top: 50.8%;
+    left: 3%;
+  }
+
+  #notice .url02 {
+    position: absolute;
+    width: 24%;
+    top: 81.7%;
+    left: 35%;
+  }
+
+  .hasen {
+    margin: 20px auto 0px;
+    padding: 50px 20px 0px;
+  }
+
+  /*-----------------------------------------------------------------
+    ticket
+  ------------------------------------------------------------------*/
+  #ticket .box_ticket {
+    width: 100%;
+    position: relative;
+    margin-top: 6%;
+    padding: 0 0px;
+  }
+
+  #ticket .box_ticket > img {
+    width: 100%;
+  }
+
+  #ticket .url_ticket {
+    position: absolute;
+    width: 90%;
+    top: 67%;
+    left: 5%;
+  }
+
+  #ticket .url_ticket2 {
+    position: absolute;
+    width: 90%;
+    top: 67%;
+    left: 5%;
+  }
+
+  #ticket .url_qa {
+    position: absolute;
+    width: 89%;
+    top: 89%;
+    left: 5%;
+  }
+
+  #ticket .ticket_wrap {
+    text-align: center;
+  }
+
+  #ticket .ticket_wrap img {
+    width: 100%;
+  }
+
+  #ticket .btn_haishin {
+    margin: 40px auto 10px;
+    text-align: center;
+  }
+
+  #ticket .maisuseigen {
+    margin: 10px auto 50px;
+    text-align: center;
+  }
+
+  #ticket .maisuseigen img {
+    width: 60%;
+  }
+
+  #ticket .ticket_box {
+    margin-top: 30px;
+    position: relative;
+  }
+
+  #ticket .ticket_box a {
+    display: none;
+    display: inline-block;
+    position: absolute;
+    top: 62%;
+    left: 29.9%;
+    width: 55%;
+  }
+
+  #ticket .box_ticket {
+    position: relative;
+    margin-bottom: 20px;
+  }
+
+  #ticket .box_ticket:last-child {
+    margin-bottom: 0;
+  }
+
+  #ticket .box_ticket a {
+    position: absolute;
+    top: 54%;
+    display: block;
+    width: 90%;
+    left: 5%;
+  }
+
+  #ticket .ticket_contact {
+    margin-top: 10px;
+    font-size: 12px;
+    font-size: 1rem;
+    color: #fff;
+    text-align: center;
+  }
+
+  #ticket p.info {
+    font-size: 14px;
+    font-size: 1.1666666667rem;
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  #caution_popup {
+    position: relative;
+    height: 100vh;
+    padding: 30px;
+  }
+
+  #caution_popup .popup_inner {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 720px;
+    background: #000;
+    padding: 0px 0px;
+    overflow-y: scroll;
+  }
+
+  #caution_popup .popup_content {
+    position: relative;
+  }
+
+  #caution_popup .popup_content .url_01 {
+    position: absolute;
+    left: 7.5%;
+    top: 12.6%;
+    width: 59%;
+  }
+
+  #caution_popup .popup_content .btn_iphone {
+    position: absolute;
+    left: 6%;
+    top: 13.3%;
+    width: 44%;
+  }
+
+  #caution_popup .popup_content .btn_and {
+    position: absolute;
+    left: 51.5%;
+    top: 13.3%;
+    width: 44%;
+  }
+
+  #caution_popup .popup_content .url_qa {
+    position: absolute;
+    left: 43%;
+    top: 17.6%;
+    width: 27%;
+  }
+
+  .insta_window {
+    max-width: 800px;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 0px 0px !important;
+    background: #fff;
+    color: #2e2e2e;
+  }
+
+  .insta_window .modal_insta_wrap h3 {
+    font-size: 30px;
+    font-size: 2.5rem;
+    font-family: "Roboto Condensed";
+  }
+
+  .insta_window .modal_insta_wrap p {
+    font-size: 14px;
+    font-size: 1.1666666667rem;
+    text-align: justify;
+    margin: 25px auto;
+  }
+
+  .insta_window p {
+    line-height: 1.7;
+    margin: 30px auto;
+    font-size: 16px;
+    font-size: 1.3333333333rem;
+  }
+
+  .insta_window p span {
+    color: #e0246e;
+    font-weight: 500;
+  }
+
+  .insta_window p a {
+    color: #e0246e;
+    text-decoration: underline;
+  }
+
+  .insta_window .close {
+    padding: 10px;
+    margin: 40px auto 0;
+    width: 200px;
+    height: 35px;
+    line-height: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    text-align: center;
+    border-radius: 20px;
+    color: #000;
+    border: solid 1px #000;
+    font-size: 14px;
+    font-size: 1.1666666667rem;
+  }
+
+  .fancybox-close-small {
+    color: #000;
+    font-weight: bold;
+  }
+
+  #interview_popup .modal_insta_wrap p {
+    font-size: 13px;
+    font-size: 1.0833333333rem;
+  }
+
+  .rains {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .rains span {
+    position: absolute;
+    width: 1px;
+    height: 60px;
+    background: #74d8e4;
+    opacity: 0.35;
+  }
+
+  .rains span:nth-child(1) {
+    left: 5%;
+    top: -190px;
+    animation: rain-anim 8s infinite;
+  }
+
+  .rains span:nth-child(2) {
+    left: 10%;
+    top: -180px;
+    animation: rain-anim 8s infinite;
+  }
+
+  .rains span:nth-child(3) {
+    left: 15%;
+    top: -170px;
+    animation: rain-anim 5s infinite;
+  }
+
+  .rains span:nth-child(4) {
+    left: 20%;
+    top: -160px;
+    animation: rain-anim 10s infinite;
+  }
+
+  .rains span:nth-child(5) {
+    left: 25%;
+    top: -150px;
+    animation: rain-anim 8s infinite;
+  }
+
+  .rains span:nth-child(6) {
+    left: 30%;
+    top: -150px;
+    animation: rain-anim 9s infinite;
+  }
+
+  .rains span:nth-child(7) {
+    left: 35%;
+    top: -160px;
+    animation: rain-anim 11s infinite;
+  }
+
+  .rains span:nth-child(8) {
+    left: 40%;
+    top: -170px;
+    animation: rain-anim 6s infinite;
+  }
+
+  .rains span:nth-child(9) {
+    left: 45%;
+    top: -180px;
+    animation: rain-anim 7s infinite;
+  }
+
+  .rains span:nth-child(10) {
+    left: 50%;
+    top: -190px;
+    animation: rain-anim 9s infinite;
+  }
+
+  .rains span:nth-child(11) {
+    left: 55%;
+    top: -190px;
+    animation: rain-anim 8s infinite;
+  }
+
+  .rains span:nth-child(12) {
+    left: 60%;
+    top: -180px;
+    animation: rain-anim 4s infinite;
+  }
+
+  .rains span:nth-child(13) {
+    left: 65%;
+    top: -170px;
+    animation: rain-anim 12s infinite;
+  }
+
+  .rains span:nth-child(14) {
+    left: 70%;
+    top: -160px;
+    animation: rain-anim 10s infinite;
+  }
+
+  .rains span:nth-child(15) {
+    left: 75%;
+    top: -150px;
+    animation: rain-anim 8s infinite;
+  }
+
+  .rains span:nth-child(16) {
+    left: 80%;
+    top: -150px;
+    animation: rain-anim 12s infinite;
+  }
+
+  .rains span:nth-child(17) {
+    left: 85%;
+    top: -160px;
+    animation: rain-anim 6s infinite;
+  }
+
+  .rains span:nth-child(18) {
+    left: 90%;
+    top: -170px;
+    animation: rain-anim 8s infinite;
+  }
+
+  .rains span:nth-child(19) {
+    left: 95%;
+    top: -180px;
+    animation: rain-anim 9s infinite;
+  }
+
+  .rains span:nth-child(20) {
+    left: 100%;
+    top: -190px;
+    animation: rain-anim 11s infinite;
+  }
+
+  @keyframes rain-anim {
+    0% {
+      transform: translate(0px, 0px);
+    }
+    4% {
+      transform: translate(0px, 1600px);
+    }
+    5% {
+      transform: translate(200px, 0px);
+    }
+    9% {
+      transform: translate(200px, 1600px);
+    }
+    10% {
+      transform: translate(-100px, 0px);
+    }
+    14% {
+      transform: translate(-100px, 1600px);
+    }
+    15% {
+      transform: translate(-200px, 0px);
+    }
+    19% {
+      transform: translate(-200px, 1600px);
+    }
+    20% {
+      transform: translate(100px, 0px);
+    }
+    24% {
+      transform: translate(100px, 1600px);
+    }
+    25% {
+      transform: translate(-150px, 0px);
+    }
+    29% {
+      transform: translate(-150px, 1600px);
+    }
+    30% {
+      transform: translate(-80px, 0px);
+    }
+    34% {
+      transform: translate(-80px, 1600px);
+    }
+    35% {
+      transform: translate(150px, 0px);
+    }
+    39% {
+      transform: translate(150px, 1600px);
+    }
+    40% {
+      transform: translate(-60px, 0px);
+    }
+    44% {
+      transform: translate(-60px, 1600px);
+    }
+    45% {
+      transform: translate(90px, 0px);
+    }
+    49% {
+      transform: translate(90px, 1600px);
+    }
+    50% {
+      transform: translate(60px, 0px);
+    }
+    54% {
+      transform: translate(60px, 1600px);
+    }
+    55% {
+      transform: translate(-60px, 0px);
+    }
+    59% {
+      transform: translate(-60px, 1600px);
+    }
+    60% {
+      transform: translate(-40px, 0px);
+    }
+    64% {
+      transform: translate(-40px, 1600px);
+    }
+    65% {
+      transform: translate(40px, 0px);
+    }
+    69% {
+      transform: translate(40px, 1600px);
+    }
+    70% {
+      transform: translate(-20px, 0px);
+    }
+    74% {
+      transform: translate(-20px, 1600px);
+    }
+    75% {
+      transform: translate(-110px, 0px);
+    }
+    79% {
+      transform: translate(-110px, 1600px);
+    }
+    80% {
+      transform: translate(20px, 0px);
+    }
+    84% {
+      transform: translate(20px, 1600px);
+    }
+    85% {
+      transform: translate(-20px, 0px);
+    }
+    89% {
+      transform: translate(-20px, 1600px);
+    }
+    90% {
+      transform: translate(50px, 0px);
+    }
+    99% {
+      transform: translate(50px, 1600px);
+    }
+    100% {
+      transform: translate(0px, 0px);
+    }
+  }
+}
+/*# sourceMappingURL=home.css.map */
+
+/*# sourceMappingURL=home.css.map */

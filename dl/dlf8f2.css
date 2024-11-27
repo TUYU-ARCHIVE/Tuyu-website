@@ -1,0 +1,214 @@
+
+.guidline_box {
+    width: calc(100% - 90px);
+    margin: 40px auto;
+}
+
+.center {
+    text-align: center;
+}
+
+.h2_caption {
+    text-align: center;
+}
+.logo_guideline {
+    z-index: 100;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    display: block;
+    margin-top: 20px;
+}
+.logo_guideline a {
+    display: inline-block;
+    width: 61%;
+    height: auto;
+    margin-left: -30%;
+    max-width: 158px;
+    text-align: center;
+}
+
+.guidline_box h3:before {
+    content: "";
+    background: url(../images/shizuku.svg) no-repeat;
+    background-size: contain;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
+}
+
+.guidline_box h3 {
+    font-size: 12px;
+    font-size: 3.2vw;
+    color: #2177a8;
+    margin-bottom: 60px;
+}
+.guidline_box h4 {
+    color: #2177a8;
+    font-size: 15px;
+    font-size: 5.639097vw;
+    margin-bottom: 5px;
+}
+
+
+.guidline_box p {
+    font-size: 10px;
+    font-size: 2.6666666667vw;
+    margin: 15px auto;
+}
+.guidline_box .notice {
+    text-align: center;
+    font-size: 12px;
+    font-size: 3.272733vw;
+    margin: 15px auto;
+}
+
+.guidline_box ul {
+    text-align: left;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.guidline_box ul li {
+    float: left;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.guidline_box dl {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.guidline_box .song_title {
+    text-align: center;
+    font-size: 16px;
+    font-size: 1.33333rem;
+    width: 100%;
+    margin: 10px auto;
+}
+
+.guidline_box dd {
+    float: left;
+    width: 40%;
+    text-align: center;
+}
+.guidline_box dd a{
+    opacity: 0.3;
+    pointer-events: none;
+}
+.guidline_box dl dd img {
+    margin-bottom: 10px;
+}
+
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.attention {
+    font-size: 13px;
+    font-size: 3.4666666667vw;
+}
+
+@media screen and (min-width: 768px) {
+    .logo_guideline a {
+        width: 100%;
+        margin-left: -50%;
+    }
+
+    .guidline_box {
+        width: 80%;
+        margin: 60px auto 50px;
+        max-width: 600px;
+    }
+
+    .guidline_box h3:before {
+        content: "";
+        background: url(../images/shizuku.svg) no-repeat;
+        background-size: contain;
+        display: inline-block;
+        height: 30px;
+        width: 30px;
+        vertical-align: middle;
+        position: relative;
+        top: -2px;
+    }
+
+    .guidline_box h3 {
+        font-size: 18px;
+        font-size: 1.5rem;
+        color: #2177a8;
+        margin-bottom: 60px;
+    }
+    .guidline_box h4 {
+        color: #2177a8;
+        font-size: 22px;
+        font-size: 1.83333rem;
+        margin-bottom: 5px;
+    }
+
+    .guidline_box p {
+        font-size: 14px;
+        font-size: 1.1666666667rem;
+        margin: 20px auto;
+    }
+    .guidline_box .notice {
+        text-align: center;
+        font-size: 20px;
+        font-size: 1.555555rem;
+        margin: 20px auto;
+    }
+
+
+    .guidline_box ul {
+        text-align: center;
+        width: 100%;
+        margin: 50px auto;
+    }
+
+    .guidline_box li {
+        height: 58px;
+    }
+
+    .guidline_box dl {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .guidline_box .song_title {
+        text-align: right;
+        font-size: 14px;
+        font-size: 1.1666666667rem;
+        width: 40%;
+        padding-right: 16px;
+    }
+
+    .guidline_box dd {
+        width: 60%;
+        text-align: left;
+    }
+
+    .guidline_box dl dd img {
+        margin-bottom: 10px;
+        margin-top: 9px;
+        width: 95px;
+    }
+
+
+    .attention {
+        font-size: 20px;
+        font-size: 1.6666666667rem;
+    }
+}

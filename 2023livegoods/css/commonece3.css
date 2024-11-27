@@ -1,0 +1,551 @@
+@charset "UTF-8";
+/* araki site CSS (common.css) */
+/* ================= contents =================
+[0] reset
+[1] base
+[2] headerArea
+[3] contentsArea
+[4] footerArea
+============================================ */
+@import url("fonts.html");
+/* ============================================
+0. reset
+============================================ */
+/* --------------------------------------------------------------------------------
+margin padding
+-------------------------------------------------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* font-family */
+body {
+  font-family: Tahoma, helvetica, clean, sans-serif;
+}
+
+/* line-height */
+body {
+  line-height: 1.45;
+}
+
+*:first-child + html * {
+  letter-spacing: 0;
+}
+
+/* --------------------------------------------------------------------------------
+other
+-------------------------------------------------------------------------------- */
+ul, ol, li, h1, h2, h3, h4, h5, h6, dl, dt, dd, a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  font-weight: normal;
+}
+
+img, iframe {
+  border: 0;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+li {
+  list-style: none;
+}
+
+address {
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* --------------------------------------------------------------------------------
+table form
+-------------------------------------------------------------------------------- */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: inherit;
+}
+
+th, td {
+  text-align: left;
+  font-style: normal;
+  font-weight: normal;
+  font-size: inherit;
+}
+
+fieldset {
+  border: 0;
+}
+
+input, textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  appearance: none;
+}
+
+/* --------------------------------------------------------------------------------
+block
+-------------------------------------------------------------------------------- */
+body {
+  text-align: left;
+}
+
+div, span, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, iframe, form, fieldset, legend, blockquote, input, textarea, p, pre {
+  text-align: left;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+}
+
+img, a img {
+  border: none;
+}
+
+table {
+  letter-spacing: 1px;
+}
+
+iframe {
+  border: none;
+}
+
+strong {
+  font-weight: bold;
+}
+
+* {
+  outline: none;
+}
+
+/* --------------------------------------------------------------------------------
+clearfix
+-------------------------------------------------------------------------------- */
+.cf_og:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+/* ============================================
+ 1.base
+============================================ */
+html, body {
+  position: relative;
+  width: 100%;
+  color: #000;
+  letter-spacing: 0.7px;
+  font-size: 12px;
+  line-height: 1.6;
+  font-family: "游ゴシック Medium", YuGothic, YuGothicM, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, sans-serif;
+  font-weight: 500;
+  -webkit-text-size-adjust: 100%;
+  background: url(../images/bg.jpg) repeat center center;
+  background-size: contain;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.3s ease-out;
+  transform: translate3d(0, 0, 0);
+  opacity: 1;
+  color: #2c5892;
+}
+a:hover {
+  opacity: 0.7;
+}
+
+.menu {
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  transform: translate3d(0, 0, 0);
+  opacity: 1;
+}
+
+.menu.active {
+  opacity: 0.6;
+}
+
+/* ----------- no-js ----------- */
+html#no-js #countdown_time {
+  display: none;
+}
+
+#noscriptBlock {
+  width: 520px;
+  position: absolute;
+  top: 27px;
+  left: 27px;
+  padding: 10px;
+  background: #FFFFFF;
+}
+
+#noscriptBlock p {
+  font-size: 14px;
+  background: #FDF3F2;
+  color: #D72400;
+  border: 1px dotted #F4C3BE;
+  padding: 6px 10px;
+  line-height: 1.4;
+}
+
+#exterior_wrapper {
+  width: 100%;
+  height: auto;
+}
+
+#container {
+  padding-top: 0;
+  z-index: 100;
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.content {
+  margin: 0 auto;
+  max-width: 800px;
+  display: block;
+  position: relative;
+}
+
+/* ============================================
+  header
+ ============================================ */
+header {
+  transition: all 0.5s ease-out;
+  transform: translate3d(0, 0, 0);
+  opacity: 1;
+  position: fixed;
+  padding: 0px 0 0;
+  height: auto;
+  width: 100%;
+  z-index: 1000;
+}
+header a :hover {
+  text-decoration: none !important;
+}
+header .wrapper {
+  padding: 0 0 30px;
+  width: 100%;
+  height: 100%;
+}
+/*-----------------------------------------------------------------
+  ハンバーガーメニュー
+------------------------------------------------------------------*/
+.menu_button, .menu_button span {
+  display: inline-block;
+  transition: all 0.4s;
+}
+
+.menu_button {
+  z-index: 10000;
+  position: absolute;
+  margin: 0px 0 0;
+  width: 30px;
+  height: 19px;
+  left: 5%;
+  top: 39px;
+}
+
+.menu_button span {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.menu_button span:nth-of-type(1) {
+  top: 0;
+}
+
+.menu_button span:nth-of-type(2) {
+  top: 8px;
+}
+
+.menu_button span:nth-of-type(3) {
+  bottom: 0;
+}
+
+/*-----------  active  ------------*/
+.menu_button.active {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.menu_button.active span:nth-of-type(1) {
+  -webkit-transform: translateY(8px) rotate(-45deg);
+  transform: translateY(8px) rotate(-45deg);
+}
+
+.menu_button.active span:nth-of-type(2) {
+  -webkit-transform: translateY(0) rotate(45deg);
+  transform: translateY(0) rotate(45deg);
+}
+
+.menu_button.active span:nth-of-type(3) {
+  opacity: 0;
+}
+
+/*-----------------------------------------------------------------
+ gloval navi
+------------------------------------------------------------------*/
+.dropdown_nav {
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+  margin: 0 auto 0;
+  width: 100%;
+  max-height: 0;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.dropdown_nav_open {
+  max-height: 1000px;
+  opacity: 1;
+  z-index: 9999;
+  position: absolute;
+}
+
+.nav_top {
+  padding: 110px 30px 300px;
+}
+.nav_top li a {
+  font-size: 22px;
+  font-size: 1.8333333333rem;
+  letter-spacing: 1.5px;
+  padding: 12px 10px 12px 30px;
+  line-height: 26px;
+  text-align: left;
+  text-decoration: none;
+  color: #fff;
+  background-size: 20px 19px;
+  display: inline-block;
+}
+.nav_top li a img {
+  width: 215px;
+}
+
+/*-----------------------------------------------------------------
+  SNS
+------------------------------------------------------------------*/
+.d_nav_sns {
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+  display: none;
+}
+.d_nav_sns ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.d_nav_sns ul li {
+  display: inline-block;
+  width: 25px;
+  margin: 0 5px;
+}
+.d_nav_sns ul li a {
+  font-size: 18px;
+  font-size: 1.5rem;
+  color: #fff;
+}
+.d_nav_sns ul li.ico_tw {
+  margin-right: 6px;
+  width: 28px;
+}
+.d_nav_sns ul li.ico_bilibili {
+  width: 47px;
+}
+
+.pc_sns {
+  display: inline-block;
+  margin-top: 0px;
+  width: auto;
+  text-align: center;
+  position: absolute;
+  right: 5%;
+  top: 30px;
+  z-index: 10;
+}
+.pc_sns ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pc_sns ul li {
+  display: inline-block;
+  width: 27px;
+  margin: 0 5px;
+}
+.pc_sns ul li a {
+  font-size: 18px;
+  font-size: 1.5rem;
+  color: #fff;
+}
+.pc_sns ul li.ico_tw {
+  margin-right: 6px;
+  width: 28px;
+}
+.pc_sns ul li.ico_bilibili {
+  width: 47px;
+}
+
+/* ============================================
+3.contentsArea
+============================================ */
+#contentArea {
+  padding-top: 68px;
+  z-index: 10;
+  position: relative;
+  top: 0;
+  width: 100%;
+}
+
+.contentAreaInner {
+  position: relative;
+  top: 0;
+  width: 100%;
+  overflow-y: hidden;
+  z-index: -1;
+}
+
+/* ============================================
+ 4.footerArea
+============================================ */
+footer {
+  border-top: 1px solid #1f3754;
+  position: relative;
+  padding: 20px 0;
+  margin: 15px 20px 0;
+}
+footer .copyrights {
+  text-align: center;
+  font-size: 10px;
+  font-size: 0.8333333333rem;
+  font-weight: bold;
+  line-height: 1;
+  letter-spacing: 5px;
+  color: #fff;
+}
+
+.no_pc {
+  display: none;
+}
+
+.no_sp {
+  display: inline;
+}
+
+@media screen and (max-width: 900px) {
+  /* ============================================
+   1.base
+  ============================================ */
+  html, body {
+    position: relative;
+    width: 100%;
+    color: #fff;
+    letter-spacing: 0.7px;
+    font-size: 12px;
+    line-height: 1.6;
+    font-family: "游ゴシック Medium", YuGothic, YuGothicM, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, sans-serif;
+    font-weight: 500;
+    -webkit-text-size-adjust: 100%;
+    background: url(../images/bg.jpg) repeat center center;
+    background-size: contain;
+  }
+
+  a {
+    text-decoration: none;
+    transition: all 0.3s ease-out;
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+    color: #2c5892;
+  }
+  a:hover {
+    opacity: 0.7;
+  }
+
+  .menu {
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+
+  .menu.active {
+    opacity: 0.6;
+  }
+
+  /* ----------- no-js ----------- */
+  html#no-js #countdown_time {
+    display: none;
+  }
+
+  #noscriptBlock {
+    width: 520px;
+    position: absolute;
+    top: 27px;
+    left: 27px;
+    padding: 10px;
+    background: #FFFFFF;
+  }
+
+  #noscriptBlock p {
+    font-size: 14px;
+    background: #FDF3F2;
+    color: #D72400;
+    border: 1px dotted #F4C3BE;
+    padding: 6px 10px;
+    line-height: 1.4;
+  }
+
+  #container {
+    z-index: 100;
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+
+  .content {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 700px;
+    display: block;
+    position: relative;
+  }
+}
+
+/*# sourceMappingURL=common.css.map */
