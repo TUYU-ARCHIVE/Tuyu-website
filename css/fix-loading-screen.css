@@ -1,0 +1,17 @@
+/* Fix for loading screen that might block clicks */
+#loading {
+    /* Hide loading screen after 5 seconds as fallback */
+    animation: hideLoading 5s forwards;
+}
+
+@keyframes hideLoading {
+    0%, 80% {
+        opacity: 1;
+        pointer-events: auto;
+    }
+    100% {
+        opacity: 0;
+        pointer-events: none;
+        display: none;
+    }
+} 
