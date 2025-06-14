@@ -95,8 +95,7 @@ php -S localhost:8000
 ├── js/                     # JavaScript files
 ├── images/                 # Site images
 ├── lib/                    # External assets (jQuery, FontAwesome, Google Fonts)
-├── cloudfront/             # Downloaded CloudFront images (174 files)
-└── fix-site-enhanced.py   # Enhanced script used to fix the site
+└── cloudfront/             # Downloaded CloudFront images (174 files)
 ```
 
 ## Technical Details
@@ -116,20 +115,8 @@ php -S localhost:8000
 - **Loading Issues**: Resolved JavaScript dependency issues in English version and subdirectories
 - **English Version**: Fixed broken wp-content image paths in `/en/` directory
 
-## Maintenance
-
-If you need to re-run the fixes or update the site:
-
-```bash
-# Enhanced fix (recommended)
-python3 fix-site-enhanced.py
-
-# Original fix (basic)
-python3 fix-site.py
-```
-
-The enhanced script provides comprehensive URL fixing and ensures all external URLs work properly with your current domain.
-
 ---
 
-**Note**: This is an archived copy for educational/preservation purposes. For the latest official content, visit the live TUYU website. 
+**Archive Notice**: This repository is an archival copy of the original tuyu-official.jp website, created to preserve the site's content after it was taken offline. This GitHub project exists solely for preservation, educational, and research purposes, and is not affiliated with, endorsed by, or connected to TUYU or their management. All rights to the original content remain with their respective owners.
+
+This archive is maintained by a Dutch individual. The project is provided in accordance with Dutch copyright law (Auteurswet), including exceptions for non-commercial archiving, research, and fair use. If you are a rights holder and wish to request removal or modification of specific content, please contact the repository maintainer.
