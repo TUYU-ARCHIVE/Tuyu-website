@@ -2,6 +2,8 @@
 
 This is a working copy of the TUYU official website (tuyu-official.jp) created using HTTrack and fixed to work properly as a static site.
 
+LIVE PREVIEW: https://tuyu.moe
+
 ## What Was Fixed
 
 The original HTTrack copy had several issues that have been comprehensively resolved:
